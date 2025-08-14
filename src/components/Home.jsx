@@ -44,7 +44,7 @@ const Home = () => {
       </header>
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-gray-600 to-gray-700 dark:from-gray-900 dark:to-gray-700 text-white py-16 transition-colors duration-200">
+      <section className="bg-gradient-to-r from-blue-400 to-blue-500 dark:from-gray-900 dark:to-gray-700 text-white py-16 transition-colors duration-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Welcome to My Project Gallery
@@ -53,10 +53,10 @@ const Home = () => {
             Explore my latest projects and see how I bring ideas to life with modern web technologies
           </p>
           <div className="flex justify-center space-x-4">
-            <button className="bg-white text-gray-700 dark:bg-gray-100 dark:text-blue-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 dark:hover:bg-gray-200 transition-colors duration-300">
+            <button className="bg-white text-blue-600 dark:bg-gray-100 dark:text-blue-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 dark:hover:bg-gray-200 transition-colors duration-300">
               View Projects
             </button>
-            <button className="border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-gray-700 dark:hover:bg-gray-100 dark:hover:text-blue-700 transition-colors duration-300">
+            <button className="border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 dark:hover:bg-gray-100 dark:hover:text-blue-700 transition-colors duration-300">
               Get in Touch
             </button>
           </div>
