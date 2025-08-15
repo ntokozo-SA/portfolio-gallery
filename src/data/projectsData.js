@@ -3,7 +3,7 @@ export const projectsData = [
     id: 1,
     title: "SANABO Matchmaking System",
     description: "A web application that helps amateur boxers find matches quickly and efficiently",
-    imageUrl: "https://images.unsplash.com/photo-1605902711622-cfb43c4430a0?w=400&h=300&fit=crop",
+    imageUrl: "/sanabo.png",
     youtubeEmbedUrl: "https://www.youtube.com/embed/your-video-id-1",
     blogContent: `
       <h2 class="text-2xl font-bold mb-4">SANABO Matchmaking System</h2>
@@ -29,7 +29,7 @@ export const projectsData = [
     id: 2,
     title: "AI Summariser Chrome Extension",
     description: "A Chrome extension that summarizes web pages and documents using AI",
-    imageUrl: "https://images.unsplash.com/photo-1581091012184-5f5a4c4bb556?w=400&h=300&fit=crop",
+    imageUrl: "/aisumm.png",
     youtubeEmbedUrl: "https://www.youtube.com/embed/your-video-id-2",
     blogContent: `
       <h2 class="text-2xl font-bold mb-4">AI Summariser Chrome Extension</h2>
@@ -55,7 +55,7 @@ export const projectsData = [
     id: 3,
     title: "Font-Finder Chrome Extension",
     description: "A Chrome extension that identifies fonts on any webpage",
-    imageUrl: "https://images.unsplash.com/photo-1581093588401-324bcf31ef4d?w=400&h=300&fit=crop",
+    imageUrl: "/fontfinder.png",
     youtubeEmbedUrl: "https://www.youtube.com/embed/your-video-id-3",
     blogContent: `
       <h2 class="text-2xl font-bold mb-4">Font-Finder Chrome Extension</h2>
@@ -81,7 +81,7 @@ export const projectsData = [
     id: 4,
     title: "Dube Boxing Club Web App",
     description: "A simple web app for managing Dube Boxing Club operations",
-    imageUrl: "https://images.unsplash.com/photo-1599058917215-6f1d4ed7a2b7?w=400&h=300&fit=crop",
+    imageUrl: "/dube.png",
     youtubeEmbedUrl: "https://www.youtube.com/embed/your-video-id-4",
     blogContent: `
       <h2 class="text-2xl font-bold mb-4">Dube Boxing Club Web App</h2>
@@ -101,6 +101,48 @@ export const projectsData = [
       <p class="mb-4">The frontend is built with React for interactivity, while the backend uses Node.js with Express. MongoDB stores club data efficiently, and the app is optimized for performance and quick deployment.</p>
       
       <p class="mb-4">The project demonstrates practical web development skills and the ability to create functional solutions for real-world client needs.</p>
+    `
+  },
+{
+    id: 5,
+    title: "Portfolio Gallery Web App",
+    description: "A modern portfolio web app to showcase projects, blog content, and video demos.",
+    imageUrl: "/port.png",
+    youtubeEmbedUrl: "https://www.youtube.com/embed/your-video-id-5",
+    blogContent: `
+      <h2 class="text-2xl font-bold mb-4">Portfolio Gallery Web App</h2>
+      
+      <p class="mb-4">
+        This portfolio web application is designed to present my projects, technical blog content, and video demonstrations in a visually appealing and user-friendly manner. It features a responsive layout, smooth navigation, and a modern UI built with React and TailwindCSS.
+      </p>
+      
+      <h3 class="text-xl font-semibold mb-3">Key Features</h3>
+      <ul class="list-disc list-inside mb-4 space-y-2">
+        <li>Project gallery with interactive cards and hover effects</li>
+        <li>Detailed project pages with embedded YouTube video demos</li>
+        <li>Rich blog content with proper formatting and typography</li>
+        <li>Responsive design for all device sizes</li>
+        <li>Dark mode support and smooth UI transitions</li>
+        <li>Quick stats and contact sidebar for easy networking</li>
+      </ul>
+      
+      <h3 class="text-xl font-semibold mb-3">Technical Stack</h3>
+      <p class="mb-4">
+        The app is built using <strong>React 18</strong> for the frontend, <strong>TailwindCSS</strong> for styling, and <strong>React Router DOM</strong> for client-side navigation. Project data, including blog content and video URLs, is managed in a single JavaScript file for easy extensibility.
+      </p>
+      
+      <h3 class="text-xl font-semibold mb-3">Development Highlights</h3>
+      <ul class="list-disc list-inside mb-4 space-y-2">
+        <li>Custom components for project cards, detailed pages, and about section</li>
+        <li>Reusable sidebar with contact info, quick stats, and call-to-action</li>
+        <li>Embedded YouTube player with responsive aspect ratio</li>
+        <li>HTML blog content rendered with TailwindCSS prose classes</li>
+        <li>Clean, maintainable code structure and easy project addition</li>
+      </ul>
+      
+      <p class="mb-4">
+        Building this portfolio app allowed me to refine my skills in React, component-based architecture, and modern CSS frameworks. It serves as a living showcase of my work and technical growth.
+      </p>
     `
   }
 ];

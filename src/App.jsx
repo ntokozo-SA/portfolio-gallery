@@ -4,6 +4,7 @@ import { ThemeProvider } from './context/ThemeContext';
 import Home from './components/Home';
 import ProjectPage from './components/ProjectPage';
 import AboutMe from './components/AboutMe';
+import WhatsAppFloat from './components/WhatsAppFloat';
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
             <Route path="/project/:id" element={<ProjectPage />} />
             <Route path="/about" element={<AboutMe />} />
           </Routes>
+          <WhatsAppFloat />
         </div>
       </Router>
     </ThemeProvider>
