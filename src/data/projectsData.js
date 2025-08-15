@@ -4,7 +4,7 @@ export const projectsData = [
     title: "SANABO Matchmaking System",
     description: "A web application that helps amateur boxers find matches quickly and efficiently",
     imageUrl: "/sanabo.png",
-    youtubeEmbedUrl: "https://youtu.be/EeDAHFVB-8I",
+    youtubeEmbedUrl: "https://www.youtube.com/embed/EeDAHFVB-8I",
     blogContent: `
       <h2 class="text-2xl font-bold mb-4">SANABO Matchmaking System</h2>
       
@@ -30,7 +30,7 @@ export const projectsData = [
     title: "AI Summariser Chrome Extension",
     description: "A Chrome extension that summarizes web pages and documents using AI",
     imageUrl: "/aisumm.png",
-    youtubeEmbedUrl: "https://youtu.be/p9kwXsW-RJQ",
+    youtubeEmbedUrl: "https://www.youtube.com/embed/p9kwXsW-RJQ",
     blogContent: `
       <h2 class="text-2xl font-bold mb-4">AI Summariser Chrome Extension</h2>
       
@@ -56,7 +56,7 @@ export const projectsData = [
     title: "Font-Finder Chrome Extension",
     description: "A Chrome extension that identifies fonts on any webpage",
     imageUrl: "/fontfinder.png",
-    youtubeEmbedUrl: "https://youtu.be/nG_RUNtUgiU",
+    youtubeEmbedUrl: "https://www.youtube.com/embed/nG_RUNtUgiU",
     blogContent: `
       <h2 class="text-2xl font-bold mb-4">Font-Finder Chrome Extension</h2>
       
@@ -82,7 +82,7 @@ export const projectsData = [
     title: "Dube Boxing Club Web App",
     description: "A simple web app for managing Dube Boxing Club operations",
     imageUrl: "/dube.png",
-    youtubeEmbedUrl: "https://youtu.be/LhnNl4_BQ-Y",
+    youtubeEmbedUrl: "https://www.youtube.com/embed/LhnNl4_BQ-Y",
     blogContent: `
       <h2 class="text-2xl font-bold mb-4">Dube Boxing Club Web App</h2>
       
@@ -108,7 +108,7 @@ export const projectsData = [
     title: "Portfolio Gallery Web App",
     description: "A modern portfolio web app to showcase projects, blog content, and video demos.",
     imageUrl: "/port.png",
-    youtubeEmbedUrl: "https://youtu.be/t66t2c3hNyo",
+    youtubeEmbedUrl: "https://www.youtube.com/embed/t66t2c3hNyo",
     blogContent: `
       <h2 class="text-2xl font-bold mb-4">Portfolio Gallery Web App</h2>
       
