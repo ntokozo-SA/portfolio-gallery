@@ -13,7 +13,7 @@ const Home = () => {
             {/* Centered Developer Image */}
             <div className="w-32 h-32 rounded-full overflow-hidden shadow-2xl border-4 border-blue-100 dark:border-blue-900 mb-6">
               <img 
-                src="YOUR_PHOTO_URL_HERE" 
+                src="ntokozo.jpg" 
                 alt="Ntokozo Ngakane" 
                 className="w-full h-full object-cover"
               />
