@@ -1,9 +1,12 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import ProjectCard from './ProjectCard';
 import ThemeToggle from './ThemeToggle';
 import { projectsData } from '../data/projectsData';
 
 const Home = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-200">
       {/* Header Section */}
@@ -50,14 +53,20 @@ const Home = () => {
             Welcome to My Project Gallery
           </h2>
           <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
-            Explore my latest projects and see how I bring ideas to life with modern web technologies
+            My love for technology started in 2014 when I saw the Titan Robot at Jabulani Mall. That spark grew into a passion for software engineering — building real-world solutions, solving problems, and exploring new technologies. I turn ideas into functional software and thrive on creating innovative tools that make an impact.
           </p>
           <div className="flex justify-center space-x-4">
-            <button className="bg-white text-blue-600 dark:bg-gray-100 dark:text-blue-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 dark:hover:bg-gray-200 transition-colors duration-300">
+            <button 
+              onClick={() => document.getElementById('projects').scrollIntoView({ behavior: 'smooth' })}
+              className="bg-white text-blue-600 dark:bg-gray-100 dark:text-blue-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 dark:hover:bg-gray-200 transition-colors duration-300"
+            >
               View Projects
             </button>
-            <button className="border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 dark:hover:bg-gray-100 dark:hover:text-blue-700 transition-colors duration-300">
-              Get in Touch
+            <button 
+              onClick={() => navigate('/about')}
+              className="border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 dark:hover:bg-gray-100 dark:hover:text-blue-700 transition-colors duration-300"
+            >
+              About Me
             </button>
           </div>
         </div>
@@ -96,6 +105,9 @@ const Home = () => {
           <div className="flex justify-center space-x-6">
             <a href="mailto: me@ntokozo.co.za" className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 font-medium transition-colors duration-200">
               Email Me
+            </a>
+            <a href="tel:+27678000046" className="text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-100 font-medium transition-colors duration-200">
+              +27 67 800 0046
             </a>
             <a href="https://github.com/ntokozo-SA" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-100 font-medium transition-colors duration-200">
               GitHub
