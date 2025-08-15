@@ -115,10 +115,6 @@ const ProjectPage = () => {
                   <p className="text-gray-600 dark:text-gray-300 transition-colors duration-200">Web Application</p>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-gray-900 dark:text-white mb-2 transition-colors duration-200">Duration</h4>
-                  <p className="text-gray-600 dark:text-gray-300 transition-colors duration-200">3-4 months</p>
-                </div>
-                <div>
                   <h4 className="font-semibold text-gray-900 dark:text-white mb-2 transition-colors duration-200">Role</h4>
                   <p className="text-gray-600 dark:text-gray-300 transition-colors duration-200">Full-Stack Developer</p>
                 </div>
