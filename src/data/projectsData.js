@@ -144,5 +144,68 @@ export const projectsData = [
         Building this portfolio app allowed me to refine my skills in React, component-based architecture, and modern CSS frameworks. It serves as a living showcase of my work and technical growth.
       </p>
     `
+  },
+  {
+    id: 6,
+    title: "AI Chatbot Generator",
+    description: "A powerful tool for creating custom AI chatbots with advanced natural language processing capabilities",
+    imageUrl: "/chatbot.png",
+    youtubeEmbedUrl: "https://youtu.be/gBI01WEGlTI",
+    blogContent: `
+      <h2 class="text-2xl font-bold mb-4">AI Chatbot Generator</h2>
+      
+      <p class="mb-4">
+        This AI Chatbot Generator is a comprehensive tool that enables users to create, customize, and deploy intelligent chatbots with advanced natural language processing capabilities. The platform provides an intuitive interface for building conversational AI agents that can handle complex interactions and provide meaningful responses.
+      </p>
+      
+      <h3 class="text-xl font-semibold mb-3">Key Features</h3>
+      <ul class="list-disc list-inside mb-4 space-y-2">
+        <li>Custom chatbot creation with drag-and-drop interface</li>
+        <li>Advanced natural language processing and intent recognition</li>
+        <li>Real-time conversation management and response generation</li>
+        <li>Multi-language support and localization capabilities</li>
+        <li>Integration with external APIs and data sources</li>
+        <li>Analytics dashboard for conversation insights and performance metrics</li>
+        <li>Scalable architecture supporting multiple concurrent users</li>
+      </ul>
+      
+      <h3 class="text-xl font-semibold mb-3">Technical Stack</h3>
+      <p class="mb-4">
+        The application is built using a modern, scalable architecture with <strong>Python FastAPI</strong> for the backend API, <strong>PostgreSQL</strong> for robust data storage and management, <strong>React</strong> for the interactive frontend components, and <strong>Next.js</strong> for server-side rendering and optimal performance.
+      </p>
+      
+      <h3 class="text-xl font-semibold mb-3">Backend Architecture</h3>
+      <ul class="list-disc list-inside mb-4 space-y-2">
+        <li><strong>FastAPI:</strong> High-performance async API with automatic documentation and type validation</li>
+        <li><strong>PostgreSQL:</strong> Reliable relational database for storing chatbot configurations, conversation history, and user data</li>
+        <li><strong>SQLAlchemy:</strong> ORM for database operations and data modeling</li>
+        <li><strong>Pydantic:</strong> Data validation and serialization for API requests and responses</li>
+        <li><strong>WebSocket Support:</strong> Real-time communication for live chat interactions</li>
+      </ul>
+      
+      <h3 class="text-xl font-semibold mb-3">Frontend Development</h3>
+      <ul class="list-disc list-inside mb-4 space-y-2">
+        <li><strong>React:</strong> Component-based UI with hooks for state management and side effects</li>
+        <li><strong>Next.js:</strong> Full-stack framework providing SSR, routing, and optimization features</li>
+        <li><strong>TypeScript:</strong> Type-safe development for better code quality and maintainability</li>
+        <li><strong>TailwindCSS:</strong> Utility-first CSS framework for responsive and modern design</li>
+        <li><strong>React Query:</strong> Data fetching and caching for optimal performance</li>
+      </ul>
+      
+      <h3 class="text-xl font-semibold mb-3">Development Highlights</h3>
+      <ul class="list-disc list-inside mb-4 space-y-2">
+        <li>Designed and implemented a scalable microservices architecture</li>
+        <li>Built real-time chat functionality using WebSocket connections</li>
+        <li>Integrated multiple AI/ML models for natural language understanding</li>
+        <li>Created an intuitive drag-and-drop chatbot builder interface</li>
+        <li>Implemented comprehensive analytics and monitoring systems</li>
+        <li>Optimized database queries and API performance for high throughput</li>
+        <li>Developed automated testing pipelines for continuous integration</li>
+      </ul>
+      
+      <p class="mb-4">
+        This project demonstrates advanced full-stack development skills, combining modern frontend technologies with robust backend systems. The chatbot generator showcases expertise in AI integration, real-time communication, and building scalable web applications that can handle complex user interactions and data processing requirements.
+      </p>
+    `
   }
 ];
