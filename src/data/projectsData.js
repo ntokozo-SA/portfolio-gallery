@@ -150,7 +150,7 @@ export const projectsData = [
     title: "AI Chatbot Generator",
     description: "A powerful tool for creating custom AI chatbots with advanced natural language processing capabilities",
     imageUrl: "/chatbot.png",
-    youtubeEmbedUrl: "https://youtu.be/gBI01WEGlTI",
+    youtubeEmbedUrl: "https://youtu.be/embed/gBI01WEGlTI",
     blogContent: `
       <h2 class="text-2xl font-bold mb-4">AI Chatbot Generator</h2>
       
